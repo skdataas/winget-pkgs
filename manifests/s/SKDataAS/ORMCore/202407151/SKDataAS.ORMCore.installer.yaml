@@ -1,0 +1,16 @@
+# Created with YamlCreate.ps1 v2.4.1 $debug=QUSU.CRLF.5-1-22000-3079.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: SKDataAS.ORMCore
+PackageVersion: "202407151"
+MinimumOSVersion: 10.0.0.0
+InstallerType: inno
+Scope: user
+UpgradeBehavior: install
+Installers:
+- Architecture: x64
+  InstallerUrl: https://db.skdata.no:5522/api/Update/GetSpecificVersion?ProjectName=ORM.Core&versionNR=202407151
+  InstallerSha256: 3A1AEB05DAEF360A8F2E5BDA9C590372F7F98CFD56B170DEAAEFB35CFE0ED7FB
+  ProductCode: '{3B4A8C5F-C9E7-4121-A585-C7C5C36D32E1}_is1'
+ManifestType: installer
+ManifestVersion: 1.6.0
